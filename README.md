@@ -27,7 +27,9 @@ b. This	command	 will not add a counter at the beginning of each message:
 python parsingContentCounter.py "Andrew" "Nutrition" "Health" "Food" "Hello FIRST_NAME, this is your current medication order: ORDERS. If you would like to confirm this order, text \'order\', otherwise text \'help\' for help" false
 ```
 
-## (3) For the double bonus part, I was thinking since there are extra empty spaces after each ORDER_ITEM. I don't know the number of these spaces, so I need more clarifications for this part, so that I know how to handle it. These empty spaces after the ORDER_ITEM will affect the 160 character limit.
+## (3) double bonus part: 
+
+For this part, I was thinking since there are extra empty spaces after each ORDER_ITEM. I don't know the number of these spaces, so I need more clarifications for this part, so that I know how to handle it. These empty spaces after the ORDER_ITEM will affect the 160 character limit.
 
 
 Note: for command-line arguments, we can also use argparse module.
